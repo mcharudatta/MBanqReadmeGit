@@ -20,4 +20,4 @@ jobs:
       - name: Run `openapi` command 🚀
         uses: readmeio/rdme@v8
         with:
-          rdme: openapi Documents\GitHub\MBanqReadmeGit\vbanq_api.yaml --key=${{ secrets.README_API_KEY }} --id=64b02a2f3606ff003e608f23
+          rdme: openapi https://github.com/mcharudatta/MBanqReadmeGit/blob/main/vbanq_api.yaml --key=${{ secrets.README_API_KEY }} --id=64b02a2f3606ff003e608f23
