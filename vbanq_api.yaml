@@ -39,7 +39,7 @@ paths:
       summary: Request Access Token
       description: >-
         
-        Use this API to obtain the access token for authentication.To authenticate requests, the APIs use OAuth 2.0 access tokens. 
+        You can use this API to obtain the access token for authentication.To authenticate requests, the APIs use OAuth 2.0 access tokens. 
 
 
         The first step to using the APIs is to obtain this access token.
