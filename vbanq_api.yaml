@@ -39,10 +39,10 @@ paths:
       summary: Request Access Token
       description: >-
         
-        You can use this API to obtain the access token for authentication.To authenticate requests, the APIs use OAuth 2.0 access tokens. 
+        Use this API to obtain the access token for authentication.To authenticate requests, the APIs use OAuth 2.0 access tokens. 
 
-        The first step for you to using the APIs is to obtain this access token.
-        If the request is valid, the response will include the access token, a refresh token, and additional properties about the authorization.
+        The first step to using the APIs is to obtain this access token.
+        For the valid request, the response will include the access token, a refresh token, and additional properties about the authorization.
 
         The response includes a parameter "expires_in" indicating the token expiry duration, after which the token needs to be refreshed.
       operationId: RequestAccessToken
